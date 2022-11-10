@@ -9,7 +9,7 @@
         //灯泡是开的，把它变成关闭
         img.src="img/开关(2).png";
         	x=document.getElementById("deme");  //查找元素
-			var a="关闭"
+			var a="关闭粉碎"
 			x.innerHTML=a;    //改变内容
 			x.style.color="gray"
         flag = false;
@@ -18,7 +18,7 @@
            img.src="img/开关(1).png";
            
             x=document.getElementById("deme");  //查找元素
-			var a="开启"
+			var a="开始粉碎"
 			x.innerHTML=a;    //改变内容
 			x.style.color="greenyellow"
            flag = true;
