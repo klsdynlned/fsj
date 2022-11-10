@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  /*background-color:;*/
+  color: white;
+}
+
+
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  /*background-color: gainsboro;*/
+  /*background-color: #333;*/
+}
+ 
+.topnav p{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  text-decoration: none;
+}
+
+.imge{
+	width: 100%;
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/bg.jpg);
+	/*-webkit-filter: blur(3px);
+	moz-filter: blur(3px);
+	filter: blur(3px);*/
+	*position: absolute;*
+	
+}
+.imge:hover{
+	
+}
+
+/* 导航链接 */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ 
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.cc{
+	width:50%;
+  height:50%;
+  /*margin:30px 50px;*/
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.44;
+  text-align: center;
+}
+
+.imge h1{
+	color: white;
+	font-style: initial;
+	position:absolute;
+	left:16%;
+	top:18%;
+	font-size: 50px;
+}
+.imge p{
+		color: white;
+	font-style: initial;
+	position:absolute;
+	left:30%;
+	top:28%;
+	/*font-size: 50px;*/
+}
+
+.day{
+	border-radius: 10px;
+box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+margin-top: 40px;
+transition: 0.3s;
+}
+
+.day1{
+
+}
